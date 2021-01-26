@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 14px;
+    line-height: 160%;
+    color: rgb(195, 195, 195)
+}
+
+
+
+*, /*нужны ли какие-то префиксы (сайт can i use)*/
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Intro*/
+.intro {
+    width: 100%;
+    height: 100vh;
+
+    background: url("img/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; /*чтобы занимало всю площадь экрана*/
+}
+
+/*Header*/
+.header {
+    width: 100%;
+
+    position: absolute; /*не знала. перемещает текст на картинку*/
+     top: 0;
+     left: 0;
+     right: 0;
+    z-index: 1000; /*поверх всего*/
+                   /*зачем-то были добавлены свойства top. left. right:0;*/
+}
+
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+
+    color: rgb(255, 255, 255);  
+}
+
+/*Nav*/
+.nav {
+
+}
+
+
+
+/*font-family: 'Kaushan Script', cursive;7#*/
